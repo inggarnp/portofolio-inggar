@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState, useRef } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'motion/react'
 
 type NavItem = {
   id: string
@@ -12,7 +12,6 @@ type NavItem = {
 const navItems: NavItem[] = [
   { id: 'home',     label: 'Home',     href: '#home'     },
   { id: 'about',    label: 'About',    href: '#about'    },
-  { id: 'experience', label: 'Experience', href: '#experience' },
   { id: 'skills',   label: 'Skills',   href: '#skills'   },
   { id: 'projects', label: 'Projects', href: '#projects' },
   { id: 'contact',  label: 'Contact',  href: '#contact'  },
