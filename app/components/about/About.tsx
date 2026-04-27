@@ -3,7 +3,6 @@
 import React from 'react'
 import { useRef, useState } from 'react'
 import { motion, useMotionValue, useTransform } from 'framer-motion'
-import { ScrollReveal } from '../ScrollReveal'
 import MiniIDCard from './section/MiniIDCard'
 
 // ─── Constants ────────────────────────────────────────────────────────────────
