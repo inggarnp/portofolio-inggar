@@ -23,7 +23,7 @@ export default function RootLayout({
         {/* Footer */}
         <footer className="bg-dark-200 text-center py-8 px-6 border-t border-dark-300">
           <p className="text-dark-100">
-            © 2024 Inggar. All rights reserved. Built with Next.js & Tailwind CSS
+            © 2026 Inggar. All rights reserved.
           </p>
         </footer>
       </body>

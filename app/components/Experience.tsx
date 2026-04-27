@@ -39,9 +39,9 @@ const timelineData: TimelineItem[] = [
     title: "Juara 1 – Piala H. Umuh Muchtar",
     place: "Turnamen Sepak Bola, Bandung",
     description:
-      "Meraih juara pertama dalam turnamen sepak bola bergengsi tingkat kota. Pengalaman ini mengajarkan arti kerja tim, kepemimpinan di lapangan, dan mental juara yang tidak kalah penting di dunia profesional.",
+      "Meraih juara pertama dalam turnamen tingkat kota, yang mengasah kemampuan kerja tim, komunikasi, dan kepemimpinan—keterampilan yang juga saya terapkan dalam pengembangan proyek dan kolaborasi tim.",
     type: "achievement",
-    tags: ["Sepak Bola", "Juara 1", "Tim"],
+    tags: ["Teamwork", "Leadership", "Discipline"],
   },
   {
     date: "2023 – 2026",
@@ -251,14 +251,6 @@ export default function Experience() {
       <div className="relative max-w-5xl mx-auto">
         {/* ── Header ── */}
         <ScrollReveal>
-          <motion.p
-            initial={{ opacity: 0, y: 8 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-xs font-semibold tracking-[0.25em] uppercase text-dark-100 mb-3"
-          >
-            02 / Experience
-          </motion.p>
           <h2 className="section-title mb-2">Perjalanan Saya</h2>
           <p className="section-subtitle">
             Dari Batam, Jakarta, hingga Bandung — perjalanan panjang yang membentuk siapa saya hari ini.
